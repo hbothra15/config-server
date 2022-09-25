@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.configurationservice;
+package com.github.hbothra;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -24,7 +24,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.cloud.config.server.environment.EnvironmentController;
 
 @SpringBootTest(properties = { "spring.profiles.active=native" })
-public class ConfigurationServiceApplicationTest {
+public class ConfigServerApplicationTest {
 
 	@Autowired
 	private EnvironmentController controller;
